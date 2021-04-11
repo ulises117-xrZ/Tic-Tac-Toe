@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section id="principal">
+        <article id="comandos">
+        <div class="jugador1">
+            <label for="player1">Persona x:</label>
+            <input type="text" name="player1" id="p1">
+        </div>
+        <div class="jugador2">
+            <label for="player2"> persona 0</label>
+            <input type="text" name="player2" id="p2">
+        </div>
+        <label id="turnoJugador"></label> <br>  
+
+            <input type="button" id="iniciar" class="boton" value="Comenzar">
+        </article>
+
+        <article class="botones">
+
+            <input type="button" id="b0" onclick="colocar(this)">
+            <input type="button" id="b1" onclick="colocar(this)">
+            <input type="button" id="b2" onclick="colocar(this)">
+
+            <input type="button" id="b3" onclick="colocar(this)">
+            <input type="button" id="b4" onclick="colocar(this)">
+            <input type="button" id="b5" onclick="colocar(this)">
+
+            <input type="button" id="b6" onclick="colocar(this)">
+            <input type="button" id="b7" onclick="colocar(this)">
+            <input type="button" id="b8" onclick="colocar(this)">
+            <input type="button" id="denuevo" value="De nuevo">
+        </article>
+    </section>        
+
+    </article>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

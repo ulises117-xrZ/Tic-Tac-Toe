@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#principal{
+    display: flex;
+    /* border: 1px solid black; */
+    /* grid-template-columns: repeat(2,1fr); */
+    margin: 50px;
+    width: 50vw;
+    margin: 5px auto;
+
+}
+
+/* #principal #comandos{
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+} */
+#comandos{
+    /* border: 1px solid red; */
+    /* display: inline-block; */
+    margin: 0 auto;
+    /* text-align: center; */
+}
+
+#iniciar{
+    border: none;
+    padding: .5em;
+    margin-top: .3em;
+    font-size: .8em;
+}
+.jugador1>input, .jugador2>input{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 10px;
+    margin: 5px;
+    border: none;
+    border-bottom:1px solid #2ef;
+}
+
+.botones{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1em;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.botones input{
+    padding: 50px;
+    border: none;
+    /* background: rgb(0, 195, 255); */
+    cursor: pointer;
+}
+
+.botonInicial {
+    color: #f90;
+    background: #ff9900;
+}
+
+.botonJugador1{
+    background: #707070;
+    color: #fff;
+}
+
+.botonJugador2{
+    background: #2ef;
+    color: #fff;
+}
+
